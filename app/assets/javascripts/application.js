@@ -14,4 +14,15 @@
 //= require jquery_ujs
 //= require twitter/bootstrap
 //= require turbolinks
+//= require ./stocks
 //= require_tree .
+
+var hide_spinner = function() {
+  $('#spinner').hide();
+  alert("Hello");
+}
+
+var show_spinner = function() {
+  $('#spinner').show();
+  alert("Hi");
+}
